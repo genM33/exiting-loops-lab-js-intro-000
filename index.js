@@ -8,7 +8,7 @@ function breakOut(array, changeValue, stopValue) {
   return array;
 }
 
-//console.log(breakOut([20,20,20,2,1,3], 50, 1));
+console.log(breakOut([20,20,20,2,1,3], 50, 1));
 
 function keepGoing(array, changeValue, skipValue) {
   for (let i = 0; i < array.length; i++) {
@@ -20,7 +20,7 @@ function keepGoing(array, changeValue, skipValue) {
   return array;
 }
 
-//console.log(keepGoing([30,1, 40, 2, 1, 80, 1, 50], 45, 1));
+console.log(keepGoing([30,1, 40, 2, 1, 80, 1, 50], 45, 1));
 
 function findBy(array, findFn) {
   for (let i = 0; i < array.length; i++) {
@@ -31,4 +31,4 @@ function findBy(array, findFn) {
   return null;
 }
 
-//console.log(findBy([50, 40, 30, 2, 30, 34, 1], (n) => n % 17 == 0));
+console.log(findBy([50, 40, 30, 2, 30, 34, 1], (n) => n % 17 == 0));
